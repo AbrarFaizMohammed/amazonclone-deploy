@@ -66,7 +66,7 @@ function App() {
   return (
     <>
       <NavigationBar  Addressinfo={addressdetails} locationbtnclick={setlocatinvalue} cartVal = {cartCount} cartCountUpdate={updatecartCount} setlocationbtnclick={updatelocationbtnclickValue} mobiledeliveryaddressdisplay={mobiledeliveryaddressdisplay}/>
-      <LocationDetailspopup addValue={addVal} isContainerMustDisplay={locationBtnClicked} setlocatinvalueAsFalse={setlocatinvalueAsFalse} islocationbtnclick={locationbtnclick} setlocationbtnclick={setlocationbtnclick} setmobiledeliveryaddressdisplay={setmobiledeliveryaddressdisplay}/>
+      <LocationDetailspopup addValue={addVal} isContainerMustDisplay={locationBtnClicked} setlocatinvalueAsFalse={setlocatinvalueAsFalse} islocationbtnclick={locationbtnclick} setlocationbtnclick={updatelocationbtnclickValue} setmobiledeliveryaddressdisplay={setmobiledeliveryaddressdisplay}/>
       <Mainbody style="filter:blur(4px)" cartCountUpdate={updatecartCount} />  
     </>
   )
