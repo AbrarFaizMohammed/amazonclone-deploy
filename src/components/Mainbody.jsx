@@ -7,7 +7,7 @@ import Footer from './footer'
 let imgNum=1;
 
 function imageSwitch(val){
-    let urlvar = 'url(../assets/Images/backgroundImag'+val+'.jpg)';
+    let urlvar = 'url(assets/Images/backgroundImag'+val+'.jpg)';
     console.log(urlvar);
     document.documentElement.style.setProperty('--imageNum',urlvar);
 }
@@ -24,7 +24,7 @@ const previousVal=()=>{
 
 export default function Mainbody({cartCountUpdate}) {
 
-    const[imgSrc,setimgSrc]=useState("../assets/Images/ProductsPic/s1.png");
+    const[imgSrc,setimgSrc]=useState("assets/Images/ProductsPic/s1.png");
 
     const setimgsrcValue = (val)=>{
         setimgSrc(val);
