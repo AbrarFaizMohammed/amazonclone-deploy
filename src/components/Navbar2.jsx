@@ -23,25 +23,25 @@ export default function Navbar2() {
         <div className='gridcontainer'>
           <div className='gc-1'>
             <a href=""><div>
-            <img src="src\Images\One_Medical_logo1.png" alt="One Medical Logo" />
+            <img src="assets/Images/One_Medical_logo1.png" alt="One Medical Logo" />
             <p>Get primary care in person or vvia video</p>
             </div></a>
           </div>
           <div className='gc-1'>
            <a href=""> <div>
-            <img src="src\Images\Amazon_Pharmacy_logo2.png" alt="pharmacy logo" />
+            <img src="assets/Images/Amazon_Pharmacy_logo2.png" alt="pharmacy logo" />
             <p>Your medications, delivered</p>
             </div></a>
           </div>
           <div className='gc-1'>
             <a href=""><div>
-            <img src="src/Images/Clinic_logo3.png" alt="clinic logo" />
+            <img src="assets/Images/Clinic_logo3.png" alt="clinic logo" />
             <p>Quickly treat common conditiond via virtual care</p>
             </div></a>
           </div>
           <div className='gc-1'>
            <a href=""> <div>
-            <img src="src\Images\Health_Products_unisize4.png" alt="Health Products logo" />
+            <img src="assets/Images/Health_Products_unisize4.png" alt="Health Products logo" />
             <p>Easily find and buy healthy and wellness products</p>
             </div></a>
           </div>

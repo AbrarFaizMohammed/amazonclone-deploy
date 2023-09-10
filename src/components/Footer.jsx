@@ -155,7 +155,7 @@ export default function Footer() {
                      </div>
                 </div></a> 
                 <a href=""><div className='flexdisplay footerbox2'>
-                  <img className='footerbox2-flagImg' src="src/Images/Flag.jpg" alt="" />
+                  <img className='footerbox2-flagImg' src="assets/Images/Flag.jpg" alt="" />
                   <p className='footerbox2-flaginfo'>United States</p>
                 </div> </a>
             </div>
@@ -232,7 +232,7 @@ export default function Footer() {
             </div>
             <div className='line3'></div>
             <div className='footersubdiv1'>
-                <a href=""><img className='amazonsmallsizelogo' src="src/Images/Amazon-Logo.png" alt="" /></a>
+                <a href=""><img className='amazonsmallsizelogo' src="assets/Images/Amazon-Logo.png" alt="" /></a>
                <a href=""><div className='flexdisplay footerbox1'>
                     <FontAwesomeIcon className='footer-globe'  icon={faGlobe} />
                      <p className='footerbox1-para'>Engilsh</p>
@@ -243,7 +243,7 @@ export default function Footer() {
                      </div>
                 </div></a> 
                 <a href=""><div className='flexdisplay footerbox2'>
-                  <img className='footerbox2-flagImg' src="src/Images/Flag.jpg" alt="" />
+                  <img className='footerbox2-flagImg' src="assets/Images/Flag.jpg" alt="" />
                   <p className='footerbox2-flaginfo'>United States</p>
                 </div> </a>
             </div>

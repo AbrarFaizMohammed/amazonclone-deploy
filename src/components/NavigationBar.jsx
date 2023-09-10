@@ -39,7 +39,7 @@ export default function NavigationBar({ Addressinfo, locationbtnclick, cartVal, 
       <div className="navbarpart1">
         <div className="logo-style border">
           <a href="https://www.google.com/" target="_blank">
-            <img src=".\src\Images\Amazon-Logo.png" alt="Amazon-Logo" />
+            <img src="assets/Images/Amazon-Logo.png" alt="Amazon-Logo" />
           </a>
         </div>
         <a href="" onClick={(e)=>locationbtnclick(e)}>
@@ -73,7 +73,7 @@ export default function NavigationBar({ Addressinfo, locationbtnclick, cartVal, 
 
         <div className="langdiv border" onMouseOver={()=>{setlocationIcon(true)}} onMouseOut={()=>{setlocationIcon(false)}}>
         <div className="countryoption">
-           <img src=".\src\Images\Flag.jpg" alt="Us-Flag" />
+           <img src="assets/Images/Flag.jpg" alt="Us-Flag" />
            <p>{countrylanguadeCode}</p>
            <FontAwesomeIcon className="locationIcon2" icon={faCaretDown} />
         </div>
@@ -93,7 +93,7 @@ export default function NavigationBar({ Addressinfo, locationbtnclick, cartVal, 
             </div>
             <div className="border2"></div>
             <div className="additionalInfo">
-             <p><img className="paraImage" src=".\src\Images\Flag.jpg" alt="Us-Flag" /> You are now shopping on Amazon.com</p>
+             <p><img className="paraImage" src="assets/Images/Amazon-Logo.png" alt="Us-Flag" /> You are now shopping on Amazon.com</p>
             </div>
             <div className="additionalcountriesatag"><a  href="">Change country/region</a></div>
             
@@ -150,7 +150,7 @@ export default function NavigationBar({ Addressinfo, locationbtnclick, cartVal, 
     <div className='navbarpart1-subdiv'>  
      <div className='sub1 flexdisplay'>
         <a href=""><FontAwesomeIcon className='barsIcon' icon={faBars}/></a>
-        <a href=""><img className='amazonlogoimage' src=".\src\Images\Amazon-Logo.png" alt="Amazon-Logo" /></a>
+        <a href=""><img className='amazonlogoimage' src="assets/Images/Amazon-Logo.png" alt="Amazon-Logo" /></a>
      </div>
      <div className='sub2 flexdisplay'>
      <a href=""><p className='accountName'>Abrar</p></a>
