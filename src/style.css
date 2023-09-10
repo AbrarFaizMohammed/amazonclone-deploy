@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lisu+Bosa&family=Noto+Sans+JP:wght@100;400;900&display=swap');
 
  :root{
-    --imageNum:url("assets/Images/backgroundImag2.jpg");
+    --imageNum:url("../assets/Images/backgroundImag2.jpg");
  }
 
   body{
@@ -1727,7 +1727,7 @@ margin-top:13px;
     margin:4px;
   }
         :root{
-            --imageNum:url("assets/Images/backgroundimagSmall2.jpg");
+            --imageNum:url("../assets/Images/backgroundimagSmall2.jpg");
          }
          .iteamsdetailscontainerdiv{
             display:flex;    
