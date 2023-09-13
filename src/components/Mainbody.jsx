@@ -24,7 +24,7 @@ const previousVal=()=>{
 
 export default function Mainbody({cartCountUpdate}) {
 
-    const[imgSrc,setimgSrc]=useState("assets/Images/ProductsPic/s1.png");
+    const[imgSrc,setimgSrc]=useState("./Images/ProductsPic/s1.png");
 
     const setimgsrcValue = (val)=>{
         setimgSrc(val);
