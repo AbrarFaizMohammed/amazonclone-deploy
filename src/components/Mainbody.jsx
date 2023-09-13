@@ -7,7 +7,7 @@ import Footer from './footer'
 let imgNum=1;
 
 function imageSwitch(val){
-    let urlvar = 'url(assets/Images/backgroundImag'+val+'.jpg)';
+    let urlvar = 'url(./Images/backgroundImag'+val+'.jpg)';
     console.log(urlvar);
     document.documentElement.style.setProperty('--imageNum',urlvar);
 }
