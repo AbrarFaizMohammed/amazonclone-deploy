@@ -7,7 +7,7 @@ import Footer from './footer'
 let imgNum=1;
 
 function imageSwitch(val){
-    let urlvar = 'url(./Images/backgroundImag'+val+'.jpg)';
+    let urlvar = 'url(assets/Images/backgroundImag'+val+'.jpg)';
     console.log(urlvar);
     document.documentElement.style.setProperty('--imageNum',urlvar);
 }
@@ -24,7 +24,7 @@ const previousVal=()=>{
 
 export default function Mainbody({cartCountUpdate}) {
 
-    const[imgSrc,setimgSrc]=useState("./Images/ProductsPic/s1.png");
+    const[imgSrc,setimgSrc]=useState("assets/Images/ProductsPic/s1.png");
 
     const setimgsrcValue = (val)=>{
         setimgSrc(val);
@@ -89,7 +89,7 @@ export default function Mainbody({cartCountUpdate}) {
             </div>
         </div>
         <div className='iteam grid-5'>
-            <video  height="320px" controls> <source src="assets/Videos/JohnWick_Chapter4(2023Movie)OfficialTrailer.mp4" type="video/mp4"/></video>
+            <video height="320px" controls > <source src="assets/Videos/JohnWick_Chapter4(2023Movie)OfficialTrailer.mp4" type="video/mp4"/></video>
         </div>
         <div className='iteam grid-6'>
             <div className='displayImagediv boxhover'>
