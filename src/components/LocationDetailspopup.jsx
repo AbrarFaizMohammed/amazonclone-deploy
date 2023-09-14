@@ -86,7 +86,7 @@ const[zipcodeoptionclicked, setzipcodeoptionclicked] =useState(false);
     <div className="phoneScreen-navbar">
     <div className={`${islocationbtnclick===false?"popupdivdisplayhide":"popupdivdisplay"}`}>
     <div className={`${islocationbtnclick===false?"mobiledivpopuphidden":zipcodeoptionclicked===true?"mobiledivpopupforzipcode":countrycodeoptionclicked===true?"mobiledivpopupforcountrycode":"mobiledivpopup"}`}>
-        <span onClick={()=>{setlocationbtnclick(false)}} className='donebtn'>DONE</span>
+        <span onClick={()=>{setlocationbtnclick(true)}} className='donebtn'>DONE</span>
         <div className={`${zipcodeoptionclicked===true?"mobilepopupsubdivhidden":"mobilepopupsubdiv"}`}>
           <p className='mobilepopupsubdiv-title'>Choose your location</p>
           <p className='mobilepopupsubdiv-titledescription'>Delivery option and delivery speed may vary for different locations</p>
