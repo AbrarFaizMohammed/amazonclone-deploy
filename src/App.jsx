@@ -52,6 +52,7 @@ function App() {
 
    function updatelocationbtnclickValue(val){
     setlocationbtnclick(val);
+    console.log(val);
     if(val===true)
     {
       document.body.style.overflow="hidden";
