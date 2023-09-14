@@ -1748,13 +1748,13 @@ margin-top:13px;
           }
           .next{
             position:absolute;
-            top:220px;
+            top:130px;
             left:0px;
             cursor:pointer;
         }
         .pervious{
             position:absolute;
-            top:220px;
+            top:130px;
             right:0px;
             text-align:center;
             cursor:pointer;
@@ -1807,5 +1807,14 @@ margin-top:13px;
     display:flex;
     justify-content:space-between;
     color:#ffffff;
+}
+
+
+.backgroundImgContainer{
+    width:90%;
+    height:60px;
+    margin-left:auto;
+    margin-right:auto;
+    cursor:pointer;
 }
   }
