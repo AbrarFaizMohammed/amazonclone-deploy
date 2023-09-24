@@ -144,7 +144,7 @@ export default function Footer() {
             </div>
             <div className='line3'></div>
             <div className='footersubdiv1'>
-                <a href=""><img className='amazonsmallsizelogo' src="src/Images/Amazon-Logo.png" alt="" /></a>
+                <a href=""><img className='amazonsmallsizelogo' src="assets/Images/Amazon-Logo.png" alt="" /></a>
                <a href=""><div className='flexdisplay footerbox1'>
                     <FontAwesomeIcon className='footer-globe'  icon={faGlobe} />
                      <p className='footerbox1-para'>Engilsh</p>

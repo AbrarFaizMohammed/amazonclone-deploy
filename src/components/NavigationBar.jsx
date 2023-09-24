@@ -93,7 +93,7 @@ export default function NavigationBar({ Addressinfo, locationbtnclick, cartVal, 
             </div>
             <div className="border2"></div>
             <div className="additionalInfo">
-             <p><img className="paraImage" src="assets/Images/Amazon-Logo.png" alt="Us-Flag" /> You are now shopping on Amazon.com</p>
+             <p><img className="paraImage" src="assets/Images/Flag.jpg" alt="Us-Flag" /> You are now shopping on Amazon.com</p>
             </div>
             <div className="additionalcountriesatag"><a  href="">Change country/region</a></div>
             
